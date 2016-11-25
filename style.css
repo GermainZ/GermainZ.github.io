@@ -43,13 +43,6 @@ blockquote cite:before {
     padding: 20px;
 }
 
-#weather_location {
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5em;
-    border-bottom: 2px solid #ccc;
-}
-
 #weather_temperature {
     font-size: 1.5em;
 }
@@ -61,4 +54,13 @@ blockquote cite:before {
 #weather_condition {
     font-size: 1.5em;
     float: right;
+}
+
+#weather_location {
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 0px;
 }
