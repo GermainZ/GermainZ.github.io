@@ -1,0 +1,64 @@
+body {
+    margin: 40px auto;
+    max-width: 40%;
+    padding: 0 10px;
+}
+
+h1, h2, h3 {
+    line-height: 1.2
+}
+
+blockquote {
+    position: relative;
+    background: #666;
+    color: #eee;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 1.45;
+}
+
+blockquote cite {
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+    text-align: right;
+}
+
+blockquote cite:before {
+    color: #ccc;
+    content: "— ";
+}
+
+#weather {
+    color: #fff;
+    background: #666;
+    border-radius: 10px;
+}
+
+#weather_info {
+    padding: 20px;
+}
+
+#weather_location {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ccc;
+}
+
+#weather_temperature {
+    font-size: 1.5em;
+}
+
+#weather_temperature::after {
+    content: "°C";
+}
+
+#weather_condition {
+    font-size: 1.5em;
+    float: right;
+}
